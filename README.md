@@ -44,7 +44,7 @@ Users can add tasks to the list, mark them as completed, and remove tasks when f
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/todo-list-app.git
+   git clone https://github.com/proapey/javascript-todo-app
    ```
 
 2. Open the project folder.
