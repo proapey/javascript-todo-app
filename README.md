@@ -37,7 +37,7 @@ Users can add tasks to the list, mark them as completed, and remove tasks when f
 
 ## Screenshot
 
-Add a screenshot of your application here.
+<img width="1510" height="793" alt="image" src="https://github.com/user-attachments/assets/5e65b4e1-670d-45c6-9abb-f6652cff81d1" />
 
 ## Getting Started
 
