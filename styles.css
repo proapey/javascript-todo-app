@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2d490d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background-color: #cfba87;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #2d490d;
+  padding: 0;
+  margin-bottom: 5px;
+  font-size: 3rem;
+}
+
+.taskAdder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  font-size: 15px;
+  width: 200px;
+  padding: 5px 10px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+.taskList {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 250px;
+}
+
+ul li {
+  list-style-type: none;
+  user-select: none;
+  position: relative;
+  padding-left: 25px;
+}
+
+ul li::before {
+  content: "";
+  background-image: url("images/unchecked-icon.png");
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-size: 100%;
+  background-position: cover;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #2d490d;
+}
+
+ul li.checked::before {
+  background-image: url("images/checked-icon.png");
+}
+
+span {
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #2d490d;
+}
